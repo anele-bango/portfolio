@@ -1,5 +1,4 @@
-# hello-world 33333332222
-Hello World repository for Git tutorial
-This is an example repository for the Git tutoial on https://www.w3schools.com
+# Anele Bango's Portfolio
 
-This repository is built step by step in the tutorial.
+This portfolio showcases my web development skills and version control expertise using **Git** and **GitHub**.  
+It demonstrates effective branching, merging, and conflict resolution techniques to maintain a clean project history.
