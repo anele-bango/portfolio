@@ -1,8 +1,124 @@
-body {
-background-color: lightblue;
+* {
+  	box-sizing: border-box;
+  	font-family: helvetica;
+  	color: #fff;
+  
 }
 
-h1 {
-color: navy;
-margin-left: 20px;
+body{
+	
 }
+
+
+
+
+nav {
+	display: flex;
+	flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+
+#logo{
+	height: 45px;
+	justify-content: flex-end;
+}
+
+nav ul{
+ display: flex;
+ flex-direction: row nowrap;
+ list-style: none;
+ align-content: flex-end;
+
+
+}
+
+ nav ul li{
+ 	margin:10px;
+ 	
+ 	
+ }
+
+
+ nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 12PX;
+
+ }
+
+ #banner-section{
+ 	display: flex;
+ 	height: 400px;
+ 	widows: 100%;
+ 	background-color: #613059;
+ 	flex-flow: column;
+ 	align-items: center;
+ 	justify-content: center;	
+
+ }
+
+ h1{
+ 	font-size: 45px;
+ 	font-weight: 800px;
+ 	line-height: 5px;
+
+ }
+
+ #banner-btns a {
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	padding: 15px;
+ 	background-color: #448B2E;
+ 	color: #fff;
+ 	width: 120px;
+ 	text-align: center;
+ 	border-radius: 5px;
+ 	transition: 1.5s;
+ }
+
+ #banner-btns #ctn-btn  {
+  	background-color: orange ;
+  }
+
+  #banner-btns a:hover{
+     background-color: red;
+  }
+
+  #banner-btns #ctn-btn:hover{
+    background-color: blue;
+  }
+
+  h1{
+  	animation :hslide 3s linear infinite alternate;
+  }
+
+  @keyframes hslide{
+  	0%{
+  		transform: translateX(-50px);
+  	}
+  	
+    100%{
+  		transform: translateX(50px);
+  	}
+
+  }
+    h2{
+  	animation :hslide 3.1s linear  infinite alternate;
+  }
+
+  @keyframes hslide{
+  	0%{
+  		transform: translateX(-50px);
+  	}
+  	
+    100%{
+  		transform: translateX(50px);
+  	}
+
+
+  }
+
+
